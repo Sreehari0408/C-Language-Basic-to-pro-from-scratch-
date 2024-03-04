@@ -2,3 +2,5 @@
    .c-> PREPROCESSOR (generates .i file) -> TRANSLATOR (generates .s file) -> ASSEMBLER (generates .o file) ->LINKER (generates a.out or execution file) 
   *) Linker is the place where Library and OS detials links to make the a.out file
 
+
+
