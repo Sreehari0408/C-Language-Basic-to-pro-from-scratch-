@@ -1,0 +1,70 @@
+1) How to download ubuntu (Linux) 
+=> Search few youtube videos to download linux in your respective personal computer/laptop
+
+2) Why linux
+=> Many company prefers linux because it has free source code and can be loaded to different micro-controllers or micro-processor
+
+3) What is source code
+=> The file which contains every information of the system which can modify to our need. We cannot modify the windows system to our need, if we want to modify we need to contact the windows company and pay certain charges (certain amount) and buy the customised product
+
+4) What is executable file
+=> The file which is used to run certain application is called executable file.
+
+5) History of C
+=> *)It is a procedural programming language.
+   *)It is developed by Dennis Ritchie (1969-1970).
+   *)It is mainly developed as a system programming language to write OS (Operating System).
+   *)It has simple set of keywords.
+   *)Clean style and low-level access to memory.
+
+6) Advantages of C
+=> *)It is a Mid-level language.
+   *)It can be used to write OS & application also.
+   *)It helps to understand the fundamentals of computer theories.
+   *)It has fewer libraries.
+   *)Very faster in terms of execution time.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+7) Compiler -> it is used to convert the program to machine understandable language (.c file to .obj or .hex file or .bin file)
+
+8) Types of compiler 
+  -> Native compiler = which works under one hardware and generating code for same hardware. Example Turbo C etc.  (basically when u type the code in pc/laptop we debug it and run the program in same pc/laptop)
+  -> Cross compiler = which works under one hardware and generated code from different hardware (different Target). Example Keil uvision etc.
+Compiler job is to convert the source code into machine understandable code
+
+9) Basic Structure of C Program
+=> #include<stdio.h> ->include header files
+    //global variables
+    //userdefined function prototype (declaration of userdefined function)
+    void main()
+    {
+      //local variable
+      //logic
+    }
+    //userdefined function definition
+
+10) C language support 2 types of comments
+=> a.(//) single line comment
+   b.(/*   .... */) multiple line comment
+
+11) Header file => 
+    *) It contains pre defined function declaration (prototype).
+    *) As per the programming standard before calling any function it should be declared.
+    *) It also can contain any global variable also.
+
+12) What is main()
+=> *) It is a function.
+   *) It is the function where program execution begins.
+   *) If there is no main() in the prgoram -> error 
+   *) To execute a file without main() -> "cc -nostartfiles file_name.c" -> this treats the 1st function of the file as main() function. (It is not the best option)
+       this will generate "a.out" file but with a display of warning 
+       and when we execute a.out -> ./a.out 
+                                 -> displays the output if any printf statement
+                                 -> segmentation fault (core dumped)
+
+13) Can we write a C program without main()
+=> YES, if compiler supports.. In GCC compiler we can use the command "cc -nostartfile file_name.c"
+
+14) Can we write a program without any function (not even main()) 
+=> NO
+
